@@ -60,3 +60,16 @@ function remainder(){
   return 5%6
 }
 remainder()
+
+
+// currying
+
+function currying(a,b){
+  return (a,b)=>{
+    return (a,b)=>{
+      console.log(a+b);
+    }
+  }
+}
+
+currying(2,3)()()
