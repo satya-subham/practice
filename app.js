@@ -30,9 +30,9 @@ async function asyncCall() {
 asyncCall();
 
 
-function add(){
-  let a = 10
+let a = 10
   let b = 12
+function add(){
 
   console.log(a+b);
 }
