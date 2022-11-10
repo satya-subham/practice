@@ -44,3 +44,12 @@ function multiply(){
   return 5*6
 }
 multiply()
+
+
+
+// division
+
+function multiply(){
+  return 5/6
+}
+multiply()
