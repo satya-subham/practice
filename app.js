@@ -70,3 +70,8 @@ function outer(){
     return a+b
   }
 }
+
+//hello
+function hello(){
+  console.log('hello')
+}
