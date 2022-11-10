@@ -37,3 +37,10 @@ function add(){
   console.log(a+b);
 }
 add();
+
+//karthik
+
+function multiply(){
+  return 5*6
+}
+multiply()
