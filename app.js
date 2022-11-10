@@ -61,15 +61,17 @@ function remainder(){
 }
 remainder()
 
+//closure
 
-// currying
-
-function currying(a,b){
-  return (a,b)=>{
-    return (a,b)=>{
-      console.log(a+b);
-    }
+function outer(){
+  let a=12
+  let b=12
+  return function inner(){
+    return a+b
   }
 }
 
-currying(2,3)()()
+//hello
+function hello(){
+  console.log('hello')
+}
