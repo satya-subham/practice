@@ -53,3 +53,10 @@ function multiply(){
   return 5/6
 }
 multiply()
+
+//karthik 2
+
+function remainder(){
+  return 5%6
+}
+remainder()
