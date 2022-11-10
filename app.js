@@ -60,3 +60,13 @@ function remainder(){
   return 5%6
 }
 remainder()
+
+//closure
+
+function outer(){
+  let a=12
+  let b=12
+  return function inner(){
+    return a+b
+  }
+}
